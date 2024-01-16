@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Shijie Xia"
 title_separator          : "-"
 name                     : &name "Shijie Xia"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Shijie Xia"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Incoming Phd for Shanghai Jiaotong University"
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/ShijieX60925"
+  twitter          : "ShijieX60925"
   vine             :
   weibo            :
   xing             :
