@@ -15,12 +15,9 @@ I am an incoming Ph.D. student at [Shanghai Jiao Tong University](https://en.sjt
 
 
 # Publications
-
-<div class='paper-box-text' markdown="1">
-<strong>Evaluating Mathematical Reasoning Beyond Accuracy<font color="#374798"></font></strong>\\
-**Shijie Xia**, Xuefeng Li, Yixin Liu, Tongshuang Wu, Pengfei Liu \\
-**2024, Preprint** <a href="https://arxiv.org/abs/2404.05692" style="pdf"><span>[paper]</span></a> <a href="https://github.com/GAIR-NLP/ReasonEval" style="code"><span>[Code]</span></a>
-</div><br>
+**Evaluating Mathematical Reasoning Beyond Accuracy**  [[paper]](https://arxiv.org/abs/2404.05692) [[code]](https://github.com/GAIR-NLP/ReasonEval)
+*<ins>Shijie Xia</ins>*, Xuefeng Li, Yixin Liu, Tongshuang Wu, Pengfei Liu
+_2024, Preprint_
 
 # Honors and Awards
 - Outstanding Graduates of Fudan University, 2024
