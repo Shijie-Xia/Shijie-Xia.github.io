@@ -19,8 +19,8 @@ arXiv preprint, 2024 | [Paper](https://arxiv.org/abs/2404.05692) | [Code](https:
 # Honors and Awards
 - Outstanding Graduates of Fudan University, 2024
 - Shanghai City Scholarship (top 5%), 2022
-- Fudan University Academic Scholarship, 2020~2024
+- Fudan University Academic Scholarship, 2020 ~ 2024
 
-# Educations
+# Education
 
-- 2020.9-2024.6: B.Eng. in Intelligence Science and Technology, Fudan University
+- 2020-2024, B.Eng. in Intelligence Science and Technology, Fudan University
