@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am an incoming Ph.D. student at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Currently, I am being trained by my amazing advisor [Pengfei Liu](http://pfliu.com/) to be an NLP researcher.
+I am an incoming Ph.D. student at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Currently, I am being trained by my amazing advisor [Pengfei Liu](https://scholar.google.com/citations?user=oIz_CYEAAAAJ&hl=zh-CN&oi=ao) to be an NLP researcher.
 
 
 
