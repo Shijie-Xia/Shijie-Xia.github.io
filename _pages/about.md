@@ -24,7 +24,6 @@ arXiv preprint, 2024 | [Paper](https://arxiv.org/abs/2404.05692) | [Code](https:
 
 - **Fudan University**  
   B.Eng. in Intelligence Science and Technology, 2020-2024  
-  GPA: 3.53/4.0, Rankings: 1/21
 
 # Miscellaneous
 
