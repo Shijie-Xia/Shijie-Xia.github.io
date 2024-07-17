@@ -32,7 +32,6 @@ arXiv preprint, 2024 | [Paper](https://arxiv.org/abs/2404.05692) | [Code](https:
 # Education
 - **Shanghai Jiao Tong University**  
   Ph.D. student in Computer Science, 2024.09-Now
-
 - **Fudan University**  
   B.Eng. in Intelligence Science, 2020.09-2024.06 
 
