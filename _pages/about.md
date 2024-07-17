@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am an incoming Ph.D. student at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Currently, I am being trained by my amazing advisor [Pengfei Liu](https://scholar.google.com/citations?user=oIz_CYEAAAAJ&hl=zh-CN&oi=ao) to be an NLP researcher.
+I am a first-year Ph.D. student at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), advised by Prof. [Pengfei Liu](https://scholar.google.com/citations?user=oIz_CYEAAAAJ&hl=zh-CN&oi=ao). Prior to that, I received the B.Eng. degree from [Fudan University](https://www.fudan.edu.cn/en/) in 2024.
 
 
 # Publications
@@ -30,9 +30,11 @@ arXiv preprint, 2024 | [Paper](https://arxiv.org/abs/2404.05692) | [Code](https:
 - Fudan University Academic Scholarship, 2020-2024
 
 # Education
+- **Shanghai Jiao Tong University**  
+  Ph.D. student in Computer Science and Technology, 2024.09-Now
 
 - **Fudan University**  
-  B.Eng. in Intelligence Science and Technology, 2020-2024  
+  B.Eng. in Intelligence Science and Technology, 2020.09-2024.06 
 
 # Miscellaneous
 
