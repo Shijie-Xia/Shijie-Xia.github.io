@@ -14,7 +14,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2406.12753"
     code: "https://github.com/GAIR-NLP/OlympicArena"
     content: ""
-    first-authored: y
+    first-authored: n
 
   - title: "Evaluating Mathematical Reasoning Beyond Accuracy"
     authors: "<b>Shijie Xia</b>, Xuefeng Li, Yixin Liu, Tongshuang Wu, Pengfei Liu"
@@ -22,4 +22,4 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2404.05692"
     code: "https://github.com/GAIR-NLP/ReasonEval"
     content: "Summary: We propose ReasonEval, a suite comprising a new evaluation methodology with defined metrics for assessing mathematical reasoning quality and corresponding LLM-based evaluators for automated calculation. "
-    first-authored: y
+    first-authored: n
