@@ -65,8 +65,8 @@ arXiv preprint, 2024 | [Paper](https://arxiv.org/abs/2404.05692) | [Code](https:
 <body>
     <h1>Publications</h1>
     <div class="buttons">
-        <button id="first-author-btn">First-authored publications</button>
-        <button id="non-first-author-btn">Co-authored publications</button>
+        <button id="first-author-btn">First-authored</button>
+        <button id="non-first-author-btn">Co-authored</button>
     </div>
     <div id="first-author-work" class="work-section">
         <p><strong>Evaluating Mathematical Reasoning Beyond Accuracy</strong><br>
@@ -81,7 +81,7 @@ arXiv preprint, 2024 | [Paper](https://arxiv.org/abs/2404.05692) | [Code](https:
         Zhen Huang, Zengzhi Wang, <ins>Shijie Xia</ins>, Xuefeng Li, Haoyang Zou, Ruijie Xu, Run-Ze Fan, Lyumanshan Ye, Ethan Chern, Yixin Ye, Yikai Zhang, Yuqing Yang, Ting Wu, Binjie Wang, Shichao Sun, Yang Xiao, Yiyuan Li, Fan Zhou, Steffi Chern, Yiwei Qin, Yan Ma, Jiadi Su, Yixiu Liu, Yuxiang Zheng, Shaoting Zhang, Dahua Lin, Yu Qiao, Pengfei Liu<br>
         arXiv preprint, 2024 | <a href="https://arxiv.org/abs/2406.12753">Paper</a> | <a href="https://github.com/GAIR-NLP/OlympicArena">Code</a></p>
     </div>
-    <script src="script.js"></script>
+    <script src="./assets/js/_main.js"></script>
 </body>
 </html>
 
