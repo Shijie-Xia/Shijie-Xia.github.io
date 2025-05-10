@@ -1,0 +1,65 @@
+papers:
+  - title: "Generative AI Act II: Test Time Scaling Drives Cognition Engineering"
+    authors: "<b>Shijie Xia</b>, Yiwei Qin, Xuefeng Li, Yan Ma, Run-Ze Fan, Steffi Chern, Haoyang Zou, Fan Zhou, Xiangkun Hu, Jiahe Jin, Yanheng He, Yixin Ye, Yixiu Liu, Pengfei Liu"
+    venue: "arXiv preprint, 2025"
+    paper_pdf: "https://arxiv.org/abs/2504.13828"
+    code: "https://github.com/GAIR-NLP/cognition-engineering"
+    content: "Summary: We take the position that the second act of generative AI is cognition engineering driven by test-time scaling. We organize and analyze a broad range of work on test-time scaling."
+    selected: y
+
+  - title: "LIMO: Less is More for Reasoning"
+    authors: "Yixin Ye<sup>※</sup>, Zhen Huang<sup>※</sup>, Yang Xiao, Ethan Chern, <b>Shijie Xia</b>, Pengfei Liu"
+    venue: "arXiv preprint, 2025"
+    paper_pdf: "https://arxiv.org/abs/2502.03387"
+    code: "https://github.com/GAIR-NLP/LIMO"
+    selected: n
+
+  - title: "PC Agent: While You Sleep, AI Works--A Cognitive Journey into Digital World"
+    authors: "Yanheng He<sup>※</sup>, Jiahe Jin<sup>※</sup>, <b>Shijie Xia</b>, Jiadi Su, Runze Fan, Haoyang Zou, Xiangkun Hu, Pengfei Liu"
+    venue: "arXiv preprint, 2024"
+    paper_pdf: "https://arxiv.org/abs/2412.17589"
+    code: "https://github.com/GAIR-NLP/PC-Agent"
+    selected: n
+
+  - title: "O1 Replication Journey--Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?"
+    authors: "Zhen Huang<sup>※</sup>, Haoyang Zou<sup>※</sup>, Xuefeng Li<sup>※</sup>, Yixiu Liu<sup>※</sup>, Yuxiang Zheng<sup>※</sup>, Ethan Chern<sup>※</sup>, <b>Shijie Xia<sup>※</sup></b>, Yiwei Qin, Weizhe Yuan, Pengfei Liu"
+    venue: "arXiv preprint, 2024"
+    paper_pdf: "https://www.arxiv.org/abs/2411.16489"
+    code: "https://github.com/GAIR-NLP/O1-Journey"
+    selected: n
+
+
+  - title: "O1 Replication Journey: A Strategic Progress Report--Part 1"
+    authors: "Yiwei Qin<sup>※</sup>, Xuefeng Li<sup>※</sup>, Haoyang Zou<sup>※</sup>, Yixiu Liu<sup>※</sup>, <b>Shijie Xia<sup>※</sup></b>, Zhen Huang, Yixin Ye, Weizhe Yuan, Hector Liu, Yuanzhi Li, Pengfei Liu"
+    venue: "arXiv preprint, 2024"
+    paper_pdf: "https://arxiv.org/abs/2410.18982"
+    code: "https://github.com/GAIR-NLP/O1-Journey"
+    selected: n
+
+
+
+  - title: "Evaluating Safety with Critique"
+    authors: "Yixiu Liu, Yuxiang Zheng, <b>Shijie Xia</b>, Yuan Guo, Jiajun Li, Yi Tu, Chaoling Song, Pengfei Liu"
+    venue: "EMNLP 2024, Findings"
+    paper_pdf: "https://www.arxiv.org/abs/2407.17075"
+    code: "https://github.com/GAIR-NLP/Safety-J"
+    selected: n
+
+
+  - title: "OlympicArena: Benchmarking Multi-discipline Cognitive Reasoning for Superintelligent AI"
+    authors: "Zhen Huang, Zengzhi Wang, <b>Shijie Xia</b>, Xuefeng Li, Haoyang Zou, Ruijie Xu, Run-Ze Fan, Lyumanshan Ye, Ethan Chern, Yixin Ye, Yikai Zhang, Yuqing Yang, Ting Wu, Binjie Wang, Shichao Sun, Yang Xiao, Yiyuan Li, Fan Zhou, Steffi Chern, Yiwei Qin, Yan Ma, Jiadi Su, Yixiu Liu, Yuxiang Zheng, Shaoting Zhang, Dahua Lin, Yu Qiao, Pengfei Liu"
+    venue: "NeurIPS 2024"
+    paper_pdf: "https://arxiv.org/abs/2406.12753"
+    code: "https://github.com/GAIR-NLP/OlympicArena"
+    selected: n
+  
+  - title: "Evaluating Mathematical Reasoning Beyond Accuracy"
+    authors: "<b>Shijie Xia</b>, Xuefeng Li, Yixin Liu, Tongshuang Wu, Pengfei Liu"
+    venue: "AAAI 2025"
+    paper_pdf: "https://arxiv.org/abs/2404.05692"
+    code: "https://github.com/GAIR-NLP/ReasonEval"
+    content: "Summary: We propose ReasonEval, a suite comprising a new evaluation methodology with defined metrics for assessing mathematical reasoning quality and corresponding LLM-based evaluators for automated calculation. "
+    note: "oral presentation"
+    poster: "assets/poster/reasoneval_aaai_poster.pdf"
+    model: "https://huggingface.co/GAIR/ReasonEval-7B"
+    selected: y

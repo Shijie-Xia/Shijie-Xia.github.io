@@ -1,0 +1,172 @@
+---
+layout: default
+title: Home
+---
+
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+  <p>
+    Shijie is a first-year Ph.D. student at Shanghai Jiao Tong University, advised by Prof. <a href="https://scholar.google.com/citations?user=oIz_CYEAAAAJ&hl=zh-CN&oi=ao">Pengfei Liu</a>. Prior to that, he received the B.Eng. degree in intelligence science from Fudan University in 2024.
+    He worked as a research intern in Shanghai AI Laboratory from 2023 to 2024.
+  </p>
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign papers_selected = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in papers_selected %}
+      <div class="paper">
+        <p class="title"><b>{{ paper.title }}</b></p>
+        <p>{{ paper.authors }}</p>
+        <p><i>{{ paper.venue }} {% if paper.note %} <font color="red">{{ paper.note }}</font> {% endif %}</i></p>
+         <div class="paper-buttons">
+          {% if paper.paper_pdf %}
+            <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+          {% endif %}
+
+          {% if paper.code %}
+          <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+          {% endif %}
+
+          {% if paper.model %}
+            <a class="button" href="{{ paper.model }}" target="_blank">Model</a>
+          {% endif %}
+
+          {% if paper.data %}
+            <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+          {% endif %}
+
+          {% if paper.poster %}
+            <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+          {% endif %}
+
+          {% if paper.video %}
+            <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+          {% endif %}
+
+          {% if paper.blogc %}
+            <a class="button" href="{{ paper.blogc }}" target="_blank">Blog (Chinese)</a>
+          {% endif %}
+
+          {% if paper.bloge %}
+            <a class="button" href="{{ paper.bloge }}" target="_blank">Blog (English)</a>
+          {% endif %}
+
+          {% if paper.tutorial %}
+            <a class="button" href="{{ paper.tutorial }}" target="_blank">Tutorial</a>
+          {% endif %}
+        </div>
+        {% if paper.content %}
+        <p>{{ paper.content }}</p>
+      {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-all">
+      <p>(※ indicates equal contribution)</p>
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }} {% if paper.note %} <font color="red">{{ paper.note }}</font> {% endif %}</i></p>
+          <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+  
+            {% if paper.code %}
+            <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+  
+            {% if paper.model %}
+              <a class="button" href="{{ paper.model }}" target="_blank">Model</a>
+            {% endif %}
+  
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+  
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+  
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+  
+            {% if paper.blogc %}
+              <a class="button" href="{{ paper.blogc }}" target="_blank">Blog (Chinese)</a>
+            {% endif %}
+  
+            {% if paper.bloge %}
+              <a class="button" href="{{ paper.bloge }}" target="_blank">Blog (English)</a>
+            {% endif %}
+  
+            {% if paper.tutorial %}
+              <a class="button" href="{{ paper.tutorial }}" target="_blank">Tutorial</a>
+            {% endif %}
+          </div>
+          {% if paper.content %}
+            <p>{{ paper.content }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ========== Honors ========== -->
+<div class="docs-section" id="awards">
+  <h4>Selected Honors and Awards</h4>
+  {% assign current_awards = site.data.awards.awards | where: "category", "current" %}
+  {% for awards in current_awards %}
+  <div class="service">
+    <p class="title"> {{ awards.name }}, <i>{{ awards.year }}</i> {% if awards.link %} <a href={{awards.link}} target="_blank">[link]</a> {% endif %}</p>
+  </div>
+  {% endfor %}
+</div>
+
+
+<!-- ========== TALKS ========== -->
+<div class="docs-section" id="talks">
+  <h4>Invited Talks</h4>
+  {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
+  {% for talk in current_talks %}
+  <div class="talk">
+    <p class="title"> {{ talk.title }}, <i>{{ talk.time }}, {{ talk.name }}</i> {% if talk.video %} <a href={{talk.video}} target="_blank">[video]</a> {% endif %} {% if talk.slides %} <a href={{talk.slides}} target="_blank">[slides]</a> {% endif %}</p>
+  </div>
+  {% endfor %}
+</div>
+
+
+<!-- ========== SERVICE ========== -->
+<div class="docs-section" id="service">
+  <h4>Service</h4>
+  {% assign current_services = site.data.service.service | where: "category", "current" %}
+  {% for service in current_services %}
+  <div class="service">
+    <p class="title"> <b>{{ service.title }}</b> {{ service.name }} </p>
+  </div>
+  {% endfor %}
+</div>
+
+
+<!-- <div class="docs-section" id="template">
+  <a href="https://clustrmaps.com/site/1c0n1"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=4P58wOayidKXedqVTlJB6KIlciTPpx5ZUc-bOLvX64w&cl=ffffff" /></a>
+</div> -->
+
+
+
+

@@ -1,0 +1,6 @@
+talks:
+    - name: "CIPS-LMG 2024"
+      time: "Nov. 2024"
+      title: "Cognition Engineering: The Inevitable Path to AGI"
+      # slides: "assets/slides/cognition_engineering_shijiexia_20241130.pdf"
+      category: "current"

@@ -1,0 +1,12 @@
+awards:
+  - name: "Outstanding Graduates of Fudan University"
+    year: "2024"
+    category: "current"
+  
+  - name: "Shanghai City Scholarship"
+    year: "2022"
+    category: "current"
+
+  - name: "Fudan University Academic Scholarship"
+    year: "2020-2024"
+    category: "current"
